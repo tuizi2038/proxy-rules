@@ -1,0 +1,19 @@
+# Meta Muse AI - Shadowrocket / Surge RULE-SET
+# Prepared: 2026-11-21
+# Use a separate Muse strategy group in your client configuration.
+# This file contains match rules only; it does not specify proxy nodes.
+
+# Muse website, API and Meta AI backend
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,meta.ai
+
+# Personal agent virtual machines and AI-generated content
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,ecto1usercontent.com
+
+# Meta account login and selected Graph dependencies (shared with other Meta services)
+DOMAIN,auth.meta.com
+DOMAIN,accountscenter.meta.com
+DOMAIN,meta.graph.meta.com
+DOMAIN,ar.graph.meta.com
